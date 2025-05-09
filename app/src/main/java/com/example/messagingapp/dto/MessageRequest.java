@@ -38,4 +38,5 @@ public class MessageRequest {
     @NotNull(message = "Временная метка обязательна")
     @PastOrPresent(message = "Временная метка не может быть в будущем")
     private Instant timestamp;
+
 }
